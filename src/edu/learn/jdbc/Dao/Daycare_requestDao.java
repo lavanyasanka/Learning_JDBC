@@ -10,6 +10,7 @@ public interface Daycare_requestDao {
 	   public Daycare_request getRequest(int ID_DAYCARE_REQUEST);
 	   public void updateDaycare_request(Daycare_request daycareRequest);
 	   public void deleteDaycare_request(Daycare_request daycareRequest);
+	   public void insertDaycare_request(Daycare_request daycareRequest);
 
 
 }
